@@ -1,0 +1,5 @@
+Для корректной работы psql (psql)
+Заменить кодировку в консоли Win 10 на читаемую
+Предлагаемое изменение, HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\Autorun
+чтобы @chcp 1251>nul
+Если Autorun нет, то добавить строковый параметр с этим именем 
